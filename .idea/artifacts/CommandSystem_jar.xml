@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CommandSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CommandSystem_jar</output-path>
+    <root id="archive" name="CommandSystem.jar">
+      <element id="module-output" name="CommandSystem" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JDA-4.0.0_55-withDependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

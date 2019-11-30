@@ -1,5 +1,6 @@
 package com.Bloodnight.JDATool;
 
+import com.Bloodnight.JDATool.CommandSystem.CommandManager;
 import net.dv8tion.jda.api.JDA;
 
 public class toolLoader {
@@ -13,5 +14,15 @@ public class toolLoader {
 
     public static JDA getJDA(){
         return jda;
+    }
+    /*
+    public static void addCommand(){
+
+    }
+
+     */
+
+    public static void EnableCommandSystem(){
+        new CommandManager(jda);
     }
 }
